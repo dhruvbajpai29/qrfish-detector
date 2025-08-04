@@ -22,10 +22,10 @@ public class RedisConfig {
     @Bean
     public LettuceConnectionFactory redisConnectionFactory(ClientResources clientResources) {
         RedisStandaloneConfiguration serverConfig = new RedisStandaloneConfiguration();
-        serverConfig.setHostName("proud-gopher-39125.upstash.io");
+        serverConfig.setHostName("suitable-marmot-9003.upstash.io");
         serverConfig.setPort(6379);
         serverConfig.setUsername("default");
-        serverConfig.setPassword("AZjVAAIjcDE5YWNhNTcyNGU1Njk0ZmQ4ODMwM2I4ZDE1MmZmMmY3NnAxMA");
+        serverConfig.setPassword("ASMrAAIjcDE5ZjYwNTBkM2ExMjY0M2I4OWY2ZTBjMmNhMjgzMDliMnAxMA");
 
         LettuceClientConfiguration clientConfig = LettuceClientConfiguration.builder()
                 .useSsl()
